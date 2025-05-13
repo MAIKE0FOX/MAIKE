@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAIKE - مدونة الأمن السيبراني</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #ff4d4d; /* تغيير اللون إلى الأحمر */
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      background-color: #101010;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      color: #ff4d4d; /* تغيير اللون إلى الأحمر */
+      font-size: 3em;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .content {
+      padding: 40px 20px;
+      display: grid;
+      gap: 30px;
+    }
+    .post {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-left: 5px solid #ff4d4d; /* تغيير اللون إلى الأحمر */
+    }
+    footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="MAIKE Logo">
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">مقالات</a>
+      <a href="#">أدوات</a>
+      <a href="#">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>The Red Teaming</h1>
+    <p>☠️☠️☠️☠️</p>
+  </section>
+  
+ <section class="content">
+  <div class="post" style="border-left: 5px solid #ff0000;">
+    <h2>Nmap - أداة المسح الشبكي</h2>
+    <p>تُستخدم لاستكشاف الشبكات، واكتشاف الأجهزة المتصلة، والمنافذ المفتوحة، وتحديد الأنظمة والتقنيات المستخدمة.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ff0000;">
+    <h2>Metasploit - منصة استغلال الثغرات</h2>
+    <p>توفر قاعدة بيانات ضخمة من الثغرات مع أدوات لإنشاء واختبار الثغرات بطريقة احترافية.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ff0000;">
+    <h2>Burp Suite - اختبار أمان الويب</h2>
+    <p>مجموعة أدوات شاملة لتحليل تطبيقات الويب وكشف الثغرات مثل XSS وSQLi وهجمات الجلسة.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ff0000;">
+    <h2>SQLmap - استغلال ثغرات SQL</h2>
+    <p>أداة مؤتمتة تساعدك في اكتشاف واستغلال ثغرات SQL Injection بشكل دقيق وسريع.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ff0000;">
+    <h2>Aircrack-ng - اختراق الشبكات اللاسلكية</h2>
+    <p>تحليل شبكات Wi-Fi واختبار تشفير WEP/WPA عبر التقاط الحزم وكسر المفاتيح.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ffff00;">
+    <h2>Wireshark - تحليل حركة المرور</h2>
+    <p>تحليل البروتوكولات والكشف عن الهجمات الخفية مثل ARP Spoofing وDNS Hijacking.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ffff00;">
+    <h2>Hydra - هجمات تخمين كلمات المرور</h2>
+    <p>تنفيذ هجمات brute-force على بروتوكولات مثل SSH, FTP, HTTP وTelnet.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ffff00;">
+    <h2>Dirb - اكتشاف المسارات المخفية</h2>
+    <p>تفحص الخوادم وتكتشف الأدلة والملفات المخبأة باستخدام قواميس.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ffff00;">
+    <h2>Gobuster - استكشاف السيرفرات</h2>
+    <p>أداة سريعة للبحث عن المسارات والمجلدات والملفات في خوادم الويب.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #ffff00;">
+    <h2>Enum4linux - جمع المعلومات من الأنظمة</h2>
+    <p>تجمع معلومات من سيرفرات ويندوز عبر SMB مثل المستخدمين والمجموعات.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #00ff00;">
+    <h2>theHarvester - جمع البريد والمجالات</h2>
+    <p>تستخدم محركات البحث ومواقع التواصل لاستخراج معلومات مثل عناوين البريد والدومينات.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #00ff00;">
+    <h2>WhatWeb - تحليل بنية المواقع</h2>
+    <p>تحلل المواقع وتكشف التقنيات المستخدمة مثل السيرفر، CMS، وأطر العمل.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #00ff00;">
+    <h2>Crunch - توليد كلمات مرور</h2>
+    <p>ينشئ قوائم كلمات مرور حسب قواعد ومعايير دقيقة.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #00ff00;">
+    <h2>John the Ripper - تحليل كلمات المرور</h2>
+    <p>يحلل ويكسر كلمات المرور المشفرة بأنظمة مثل shadow وhashes.</p>
+  </div>
+
+  <div class="post" style="border-left: 5px solid #00ff00;">
+    <h2>Social-Engineer Toolkit (SET) - الهندسة الاجتماعية</h2>
+    <p>تنفيذ هجمات تصيد وتلاعب نفسي لمحاكاة الهجمات البشرية على الأهداف.</p>
+  </div>
+</section>
+
+  <footer>
+    &copy; 2025 MAIKE - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
